@@ -1,0 +1,4 @@
+.vscode/
+frontend/assets/img/
+backend/package-lock.json
+backend/package.json

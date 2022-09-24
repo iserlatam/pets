@@ -1,0 +1,46 @@
+{
+    "gatos": [
+      {
+        "id": 1,
+        "tipo": "felinos",
+        "duennoNombre": "carlos",
+        "duennoContacto": "https://wa.me/57",
+        "duennoSitio": "pet star shop",
+        "nombreMascota": "Diora",
+        "genero": "femenino",
+        "raza": "Bengali",
+        "colorOjos": "Marrones",
+        "edad": 2,
+        "alimento": "cuidaCat",
+        "imagen": "assets/img/pets/gato.png",
+        "autobiografia": "pescado",
+        "personalidad": [
+            "divertido",
+            "tranquilo",
+            "comelon"
+        ],
+        "precioAdopcion": "2550",
+        "vacunas": "esterilizado"
+      }
+    ],
+    "usuarios": [
+      {
+        "nombre": "Lorena",
+        "apellido": "Gutierrez",
+        "correo": "lorena@gmail.com",
+        "id": 3
+      },
+      {
+        "nombre": "Lorena Dayana",
+        "apellido": "Lore",
+        "correo": "lore@gmail.com",
+        "id": 4
+      },
+      {
+        "nombre": "Lore333",
+        "apellido": "Torres",
+        "correo": "lore333@gmail.com",
+        "id": 5
+      }
+    ]
+  }

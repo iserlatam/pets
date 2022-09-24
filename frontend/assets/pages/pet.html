@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        .navbar-custom {
+            width: 100%;
+            margin-top: -8px;
+            background-color: black;
+        }
+        
+        .navbar-custom .navbar-nav-custom {
+            width: 100%;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar-custom .navbar-nav-custom>li {
+            display: inline-block;
+            height: 100%;
+        }
+        
+        .navbar-custom .navbar-nav-custom>li>a {
+            display: block;
+            text-decoration: none;
+        }
+        
+        .navbar-custom .navbar-nav-custom>li>a>i,
+        .navbar-custom .navbar-nav-custom>li>a>span {
+            font-size: 25px;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .navbar-custom .navbar-nav-custom>li>a>span>img {
+            width: 28px;
+            margin-top: -15px;
+        }
+        
+        .slides {
+            display: grid;
+            grid-auto-flow: column;
+            gap: 1rem;
+            overflow-y: auto;
+            overscroll-behavior-x: contain;
+            scroll-snap-type: x mandatory;
+            scrollbar-width: none;
+        }
+        
+        .slides>img {
+            scroll-snap-align: start;
+        }
+        
+        .slides img {
+            border-radius: 10px;
+            width: 350px;
+            height: 250px;
+            object-fit: contain;
+        }
+        
+        .slides::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- CDN BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+
+<body style="overflow-x: hidden; background-color:#f6f1f1">
+    <nav class="navbar shadow navbar-expand-lg  navbar-light d-none d-md-block">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto d-flex w-50 flex-row justify-content-between ">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="# "><i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="# "><i class='bx bx-cart'></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="# "><i class='bx bx-bookmark-heart'></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="# "><i class='bx bx-user'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row" class="text-center" id="detailProduc" style="padding: 25px 15px; margin: 0; width: 100%;">
+        <div class="col-12">
+            <div class="slides">
+                <img id="relatedImg1" alt=" " />
+                <img id="relatedImg2" alt=" " />
+                <img id="relatedImg3" alt=" " />
+                <img id="relatedImg4" alt=" " />
+            </div>
+        </div>
+        <div class="col-12 mt-3">
+            <div class="row">
+                <div class="col-10">
+                    <h4 class="h4" id="petname">Oakley</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-start gap-3">
+                    <div style="width: 70px; height: 30px;border-radius: 18px; text-align:center;justify-content:center;background-color:rgba(255, 88, 88, 1);">
+                        <h6 id="genero" style="margin-top:10px;color:white;font-size:8px; ">female</h6>
+                    </div>
+                    <div style="width: 70px; height: 30px;border-radius: 18px;text-align:center;justify-content:center;background-color: rgba(128, 219, 210, 1);">
+                        <h6 id="raza" style="margin-top:10px;color:white;font-size:8px; ">Bengale</h6>
+                    </div>
+                    <div style="width: 70px; height: 30px;border-radius: 18px;text-align:center;justify-content:center;background-color:#ffde5a;">
+                        <h6 id="colorOjos" style="margin-top:10px;color:white;font-size:8px; ">brown color</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12" style="margin-top:20px; background-color:rgba(35, 243, 223, 1); border-radius: 18px">
+            <div class="row">
+                <div class="col-12">
+                    <h3 style="margin-top:10px; color:white; font-weight:400;font-size:20px; ">Information about Oakley</h3>
+                </div>
+                <div class="col-12">
+                    <div clas="row">
+                        <div class="container d-flex justify-content-between">
+                            <div class="col-4">
+                                <div class="container text-center" style="font-size:25px; color:white;">
+                                    <i class='bx bx-smile'></i>
+                                    <h6 id="pers1" style="font-size:12px; font-weight:400;">Active</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="container text-center" style="font-size:25px; color:white;">
+                                    <i class='bx bx-show'></i>
+                                    <h6 id="pers2" style="font-size:12px; font-weight:400;">curious</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="container text-center" style="font-size:25px; color:white;">
+                                    <i class='bx bxl-github'></i>
+                                    <h6 id="pers3" style="font-size:12px; font-weight:400;">Make Friends</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12" style="margin-top:20px;">
+            <div class="row">
+                <div class="col-12">
+                    <h3 style="font-weight:400;">Behavorial Characterists</h3>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="../img/web/neutro.jpeg" alt=" " />
+                            <span id="esterilizado" class=" valoracion-card">Neutered</span>
+                        </div>
+                        <div class="col-6">
+                            <img src="../img/web/vacuna.jpeg" alt=" " />
+                            <span id="vacuna" class="valoracion-card">Vaccinated</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12" style="margin-top:15px;">
+            <div class="row">
+                <div class="col-12">
+                    <h3 style="font-weight:400;">Info</h3>
+                </div>
+                <div class="col-12">
+                    <p id="info" style="font-size: 15px; font-weight:300; color:#8f8e8e;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mt-1">
+            <div class="row">
+                <div class="col-4">
+                    <h6 class="h6">Price:</h6>
+                    <div>
+                        <span style="color:#23f3df; font-size: 1em;">$</span>
+                        <span id="precio" style="font-size: 2em; font-weight: 600;"></span>
+                    </div>
+                </div>
+                <div class="col-5 d-flex flex-row align-items-center justify-content-start">
+                    <button class="btn" style=" display: block; padding: 2px 0px; font-size: 30px; width: 140px; color: white; background:rgba(35, 243, 223, 1); border: none; border-radius: 70px;">
+                        <i class='bx bx-cart-add'></i>
+                    </button>
+                </div>
+                <div class="col-3 d-flex flex-row align-items-center justify-content-start">
+                    <a id="contact">
+                        <button class="btn" style=" display: block; font-size: 20px; color:#ff5858; background:white; border: none; border-radius: 50%;">
+                            <i class='bx bx-phone'></i>
+                        </button>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-12 d-block d-md-none mt-4">
+            <div class="container fixed-bottom">
+                <nav class="navbar-custom">
+                    <ul class="navbar-nav-custom">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="# "><i class='bx bx-home-alt'></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="# "><i class='bx bx-cart'></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="# "><i class='bx bx-bookmark-heart'></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="# "><i class='bx bx-user'></i></a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf " crossorigin="anonymous "></script>
+    <script src="../scripts/printPet.js" type="module"></script>
+</body>
+
+</html>

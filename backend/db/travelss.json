@@ -1,0 +1,159 @@
+{
+    "gatos": [{
+            "id": 1,
+            "tipo": "felinos",
+            "duennoNombre": "Doris",
+            "duennoContacto": "https://wa.me/573158438923",
+            "duennoSitio": "pet star shop",
+            "fotodueno": "assets/img/users/1.jpeg",
+            "nombreMascota": "Diora",
+            "genero": "Hembra",
+            "raza": "Persa",
+            "colorOjos": "grises",
+            "edad": 2,
+            "alimento": "cuidaCat",
+            "imagen": "assets/img/web/gato.png",
+            "info": "pescado",
+            "personalidad": [
+                "Activo",
+                "Curioso",
+                "Make friends"
+            ],
+            "precioAdopcion": "550",
+            "esterilizado": "esteril",
+            "vacuna": "vacunado",
+            "imagenesRelacionadas": [
+                "../img/pets/1.jpeg ",
+                "../img/pets/2.jpeg ",
+                "../img/pets/3.jpeg ",
+                "../img/pets/4.jpeg "
+            ]
+        },
+        {
+            "id": 2,
+            "tipo": "felinos",
+            "duennoNombre": "carlos",
+            "duennoContacto": "https://wa.me/573158438923",
+            "duennoSitio": "Pet World",
+            "nombreMascota": "Geruncia",
+            "fotodueno": "assets/img/users/3.jpeg",
+            "genero": "macho",
+            "raza": "Bengali",
+            "colorOjos": "Marrones",
+            "edad": 2,
+            "alimento": "cuidaCat",
+            "imagen": "assets/img/web/gato.png",
+            "info": "comer ratones",
+            "personalidad": [
+                "Activo",
+                "Curioso",
+                "Make friends"
+            ],
+            "precioAdopcion": "750",
+            "esterilizado": "esteril",
+            "vacuna": "vacunado",
+            "imagenesRelacionadas": [
+                "../img/pets/1.jpeg ",
+                "../img/pets/2.jpeg ",
+                "../img/pets/3.jpeg ",
+                "../img/pets/4.jpeg "
+            ]
+        },
+        {
+            "id": 3,
+            "tipo": "felinos",
+            "duennoNombre": "Maria",
+            "duennoContacto": "https://wa.me/573158438923",
+            "duennoSitio": "CatDog",
+            "fotodueno": "assets/img/users/2.jpeg",
+            "nombreMascota": "Diora",
+            "genero": "Hembra",
+            "raza": "Siberiano",
+            "colorOjos": "negros",
+            "edad": 2,
+            "alimento": "cuidaCat",
+            "imagen": "assets/img/web/gato.png",
+            "info": "pescado",
+            "personalidad": [
+                "Activo",
+                "Curioso",
+                "Make friends"
+            ],
+            "precioAdopcion": "650",
+            "esterilizado": "esteril",
+            "vacuna": "vacunado",
+            "imagenesRelacionadas": [
+                "../img/pets/1.jpeg ",
+                "../img/pets/2.jpeg ",
+                "../img/pets/3.jpeg ",
+                "../img/pets/4.jpeg "
+            ]
+        }
+    ],
+
+    "producto": [{
+            "id": 1,
+            "nombre": "Purina yesterdays news, Fresh Scent Parfumee",
+            "etapa": "todas",
+            "tipoproducto": "Arena",
+            "imagenprod": "assets/img/products/2.png",
+            "descripcion": "Cat litter Made With Recycled Paper Litiere pour chats faite avec du papier recycle",
+            "precio": 50.9,
+            "imagenesRelacionadas": [
+                "../img/products/1.png",
+                "../img/products/2.png",
+                "../img/products/3.png",
+                "../img/products/4.png"
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Purina Friskies 13.5 OZ",
+            "etapa": "adulta",
+            "tipoproducto": "Meali Bits",
+            "imagenprod": "assets/img/products/1.png",
+            "descripcion": "Cat food Chicken Dinner In Gravy",
+            "precio": 23.45,
+            "imagenesRelacionadas": [
+                "../img/products/1.png",
+                "../img/products/2.png",
+                "../img/products/3.png",
+                "../img/products/4.png"
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Whiskas Complete Nutrition",
+            "etapa": "cachorros",
+            "tipoproducto": "dry food",
+            "descripcion": "Mix Flavor Whit cream inside and cover crocant",
+            "imagenprod": "assets/img/products/3.png",
+            "precio": 30.56,
+            "imagenesRelacionadas": [
+                "../img/products/1.png",
+                "../img/products/2.png",
+                "../img/products/3.png",
+                "../img/products/4.png"
+            ]
+        }
+    ],
+    "usuarios": [{
+            "nombre": "Lorena",
+            "apellido": "Gutierrez",
+            "correo": "lorena@gmail.com",
+            "id": 3
+        },
+        {
+            "nombre": "Lorena Dayana",
+            "apellido": "Lore",
+            "correo": "lore@gmail.com",
+            "id": 4
+        },
+        {
+            "nombre": "Lore333",
+            "apellido": "Torres",
+            "correo": "lore333@gmail.com",
+            "id": 5
+        }
+    ]
+}
